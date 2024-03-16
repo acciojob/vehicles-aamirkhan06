@@ -1,13 +1,19 @@
 package com.driver;
 
 public class Car extends Vehicle {
+    private String name;
     private int wheels;
     private String type;
     private int doors;
     private int gears;
     private boolean isManual;
-    private int currentGear;
+    private int currentGear=1;
     private int seats;
+
+    @Override
+    public String getName() {
+        return name;
+    }
 
     public int getDoors() {
         return doors;
@@ -40,12 +46,23 @@ public class Car extends Vehicle {
     public Car(String name, int wheels, int doors, int gears, boolean isManual, String type, int seats) {
         //Hint: Car extends Vehicle
         super(name);
+        this.name=name;
         this.wheels=wheels;
         this.doors=doors;
         this.gears=gears;
         this.isManual=isManual;
         this.type=type;
         this.seats=seats;
+    }
+    public Car(String name, int wheels, int doors, int gears, boolean isManual, String type) {
+        //Hint: Car extends Vehicle
+        super(name);
+        this.name=name;
+        this.wheels=wheels;
+        this.doors=doors;
+        this.gears=gears;
+        this.isManual=isManual;
+        this.type=type;
     }
     public Car(String name, boolean isManual)
     {
