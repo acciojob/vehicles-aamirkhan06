@@ -51,51 +51,69 @@ public class Main {
 //        F1 f1 = new F1("BMW", false);
 //
 //        assert f1.getName() == "BMW";
+//        System.out.println(f1.getName().equals("BMW"));
 //
 //        assert !f1.isManual();
+//        System.out.println(!f1.isManual());
 //
 //        f1.accelerate(0);
 //
 //        assert f1.getCurrentSpeed() == 0;
+//        System.out.println(f1.getCurrentSpeed() == 0);
 //
 //        assert f1.getCurrentGear() == 1;
+//        System.out.println((f1.getCurrentGear() == 1)+" "+ f1.getCurrentGear());
 //
 //        f1.accelerate(50);
 //
 //        assert f1.getCurrentSpeed() == 50;
+//        System.out.println(f1.getCurrentSpeed() == 50);
 //
 //        assert f1.getCurrentGear() == 1;
+//        System.out.println((f1.getCurrentGear() == 1)+" "+f1.getCurrentGear());
 //
 //        f1.accelerate(25);
 //
 //        assert f1.getCurrentSpeed() == 75;
+//        System.out.println(f1.getCurrentSpeed() == 75);
 //
 //        assert f1.getCurrentGear() == 2;
+//        System.out.println((f1.getCurrentGear() == 2)+" "+f1.getCurrentGear());
 //
 //        f1.accelerate(50);
 //
 //        assert f1.getCurrentSpeed() == 125;
+//        System.out.println(f1.getCurrentSpeed() == 125);
 //
 //        assert f1.getCurrentGear() == 3;
+//        System.out.println((f1.getCurrentGear() == 3)+" "+f1.getCurrentGear());
 //
 //        f1.accelerate(26);
 //
 //        assert f1.getCurrentSpeed() == 151;
+//        System.out.println(f1.getCurrentSpeed() == 151);
 //
 //        assert f1.getCurrentGear() == 4;
+//        System.out.println((f1.getCurrentGear() == 4)+" "+f1.getCurrentGear());
 //
 //        f1.accelerate(99);
 //
 //        assert f1.getCurrentSpeed() == 250;
+//        System.out.println(f1.getCurrentSpeed() == 250);
 //
 //        assert f1.getCurrentGear() == 5;
+//        System.out.println((f1.getCurrentGear() == 5)+" "+f1.getCurrentGear());
 //
 //        f1.accelerate(1);
 //
 //        assert f1.getCurrentSpeed() == 251;
+//        System.out.println(f1.getCurrentSpeed() == 251);
 //
 //        assert f1.getCurrentGear() == 6;
+//        System.out.println((f1.getCurrentGear() == 6)+" "+f1.getCurrentGear());
 //
-//        System.out.println(f1.getCurrentDirection()==0);
+//        assert f1.getCurrentDirection() == 0;
+//        System.out.println(f1.getCurrentDirection() == 0);
+
     }
 }

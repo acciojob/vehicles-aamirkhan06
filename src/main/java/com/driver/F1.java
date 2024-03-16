@@ -24,7 +24,7 @@ public class F1 extends Car {
 
     @Override
     public int getCurrentGear() {
-        return currentGear;
+        return super.getCurrentGear();
     }
 
     public void accelerate(int rate){
